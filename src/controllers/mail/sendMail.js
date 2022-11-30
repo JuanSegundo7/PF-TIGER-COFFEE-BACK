@@ -47,7 +47,7 @@ const sendEmail = async (data)=>{
                         <h4>Purchase Summary:</h4>
                         ${productsWithoutCommas}
                         <p>Total Price: US$${total}</p>
-                        <p>To keep buying, please go to: http://localhost:3000</p>
+                        <p>To keep buying, please go to: https://tigercoffee.vercel.app/</p>
                         <p>${upperCaseName}, we thank you once again for trusting us!</p>
                         <img src="https://res.cloudinary.com/drscelx6f/image/upload/v1668883704/ynhwwb7jrqukf6esg1ya.jpg" width="200px" height="200px" />
                     </div>`

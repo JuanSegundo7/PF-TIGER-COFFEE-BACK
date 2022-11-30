@@ -29,8 +29,8 @@ router.post("/", async (req, res) => {
     },
     items: totalPurchase, // por cada producto un item
     back_urls: {
-      "success": "http://localhost:3000",
-      "failure": "http://localhost:3000",
+      "success": "https://tigercoffee.vercel.app/",
+      "failure": "https://tigercoffee.vercel.app/",
       //"pending": console.log("pending")
     },
   };
